@@ -36,7 +36,7 @@ function App() {
   const socket = useRef();
 
   useEffect(() => {
-    socket.current = io.connect("/");
+    socket.current = io.connect(process.env.REACT_APP_API_URL);
     navigator.mediaDevices.getUserMedia({ video: true, audio: true }).then(stream => {
       setStream(stream);
       if (userVideo.current) {
