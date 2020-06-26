@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://amigou.herokuapp.com/",
-  "description": "Video chat App",
-  "main": "src/index.js",
-  "author": "marlon",
   "license": "ISC",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
